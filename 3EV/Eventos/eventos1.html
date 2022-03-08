@@ -1,0 +1,26 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Ejercicio 1 - DOM basico</title>
+
+
+</head>
+<body>
+    
+    <input id="button" type="button" value="Pinchame y verás" >
+    <p>Click the text!</p>
+    <script>
+
+        let button = document.getElementById("#button"); 
+
+        button.addEventListener("button", function(){
+            alert("OJO ande vas moreno");
+            console.log("Te voy a rajar,moreno tocabotones");
+        })
+        
+       </script>
+    
+</body>
+</html>
